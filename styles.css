@@ -403,17 +403,17 @@ section {
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
+  -webkit-appearance: none;
+  margin: 0;
 }
-input[type=number]{
+input[type="number"] {
   -moz-appearance: textfield;
 }
 
 .contact form .input-box input:focus,
 .contact form textarea:focus {
   border: 2px solid var(--main-color);
-  outline: none;  
+  outline: none;
   box-shadow: 0 0 25px var(--main-color);
 }
 
@@ -464,12 +464,14 @@ input[type=number]{
   .navbar {
     position: absolute;
     top: 100%;
-    right: 0;
-    width: 50%;
+    right: 1px;
+    width: 30%;
     padding: 1rem 3rem;
     background-color: rgba(0, 0, 0, 0.8);
     border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
     border-left: 2px solid var(--main-color);
+    border-right: 2px solid var(--main-color);
     border-bottom: 2px solid var(--main-color);
     display: none;
   }
